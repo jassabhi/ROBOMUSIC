@@ -112,7 +112,7 @@ def queuemarkup(_, vidid, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/THE_PUNJABI_BANDE",
+                url="https://t.me/PBX_PERMOT",
             ),
         ],
     ]
