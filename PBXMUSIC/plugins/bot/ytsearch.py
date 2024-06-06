@@ -4,7 +4,7 @@ from PBXMUSIC import app
 from pyrogram import filters
 
 
-@app.on_message(filters.command("search"))
+@app.on_message(filters.command("ytsearch"))
 async def ytsearch(_, message: Message):
     try:
         if len(message.command) < 2:
