@@ -3,9 +3,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from BADMUSIC import app
-from BADMUSIC.mongo.afkdb import LOGGERS as OWNERS
-from BADMUSIC.utils.database import add_served_chat, get_assistant
+from PBXMUSIC import app
+from PBXMUSIC.mongo.afkdb import LOGGERS as OWNERS
+from PBXMUSIC.utils.database import add_served_chat, get_assistant
 
 
 
