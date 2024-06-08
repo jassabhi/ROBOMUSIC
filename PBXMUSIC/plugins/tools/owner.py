@@ -4,57 +4,52 @@ from PBXMUSIC import app
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
-app.on_message(filters.command("owner") & filters.group)
 
 
+@app.on_message(filters.command(["owner"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/403d1431dd35d74d6fcad.jpg",
-        caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
+        photo=f"https://telegra.ph/file/1232e6dca7142e8ed175a.jpg",
+        caption=f"""☠ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ 🌸""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_BAD_MUNDA_ll"
-                    )
-                ],
-                [InlineKeyboardButton("🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_mxni_ll")],
+[
+        InlineKeyboardButton(text=" ʙᴀᴅ 🌸", url=f"https://t.me/ll_BAD_MUNDA_ll"),
+        InlineKeyboardButton(text=" ᴍᴀɴɪ 🌸", url=f"https://t.me/ll_mxni_ll"),
+    ],
             ]
         ),
     )
 
 
-@app.on_message(filters.command("owner") & filters.group)
+@app.on_message(filters.command(["owner"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/403d1431dd35d74d6fcad.jpg",
-        caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
+        photo=f"https://telegra.ph/file/1232e6dca7142e8ed175a.jpg",
+        caption=f"""☠ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ 🌸""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_BAD_MUNDA_ll"
-                    )
-                ],
-                [InlineKeyboardButton("🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_mxni_ll")],
+            [
+        InlineKeyboardButton(text=" ʙᴀᴅ 🌸", url=f"https://t.me/ll_BAD_MUNDA_ll"),
+        InlineKeyboardButton(text=" ᴍᴀɴɪ 🌸", url=f"https://t.me/ll_mxni_ll"),
+    ],
+
             ]
         ),
     )
 
 
-@app.on_message(filters.command("owner") & filters.private)
+@app.on_message(filters.command(["owner"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/403d1431dd35d74d6fcad.jpg",
-        caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
+        photo=f"https://telegra.ph/file/1232e6dca7142e8ed175a.jpg",
+        caption=f"""☠ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ 🌸""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_BAD_MUNDA_ll"
-                    )
-                ],
-                [InlineKeyboardButton("🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ll_mxni_ll")],
+             [
+        InlineKeyboardButton(text=" ʙᴀᴅ 🌸", url=f"https://t.me/ll_BAD_MUNDA_ll"),
+        InlineKeyboardButton(text=" ᴍᴀɴɪ 🌸", url=f"https://t.me/ll_mxni_ll"),
+    ],
             ]
         ),
     )
