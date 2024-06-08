@@ -74,12 +74,12 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(text="𐏓 ⃪⃝🇺🇸 ꯭𝗗ᴇᴠɪ𝗟 ꯭༎ࠫ⛧‌", url="https://t.me/ll_mxni_ll"),
-            InlineKeyboardButton(text="⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂⎯꯭ ꯭̽🌸", url="https://t.me/ll_BAD_BBY_ll"),
+            InlineKeyboardButton(text="⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂⎯꯭ ꯭̽🌸", url="https://t.me/ll_BAD_MUNDA_ll"),
         ],
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/II_PBX1_II",
+                url="https://t.me/PBX_PERMOT",
             ),
         ],
     ]
