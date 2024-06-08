@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "MissBroken_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "BrokenRobot_Bot")
 
 # Don't Add style font
-BOT_USERNAME2 = getenv("BOT_USERNAME2", "miss Broken")
+BOT_USERNAME2 = getenv("BOT_USERNAME2", "BrokenRobot_Bot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HEROKUBIN_01")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_BAD_GROUP_ll")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THE_PUNJABI_BANDE")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
